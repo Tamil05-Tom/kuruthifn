@@ -1,0 +1,59 @@
+
+.cf {
+  width: 100px;
+  
+  padding: 10px;
+  text-align: center;
+  
+  border-radius: 3px;
+  
+  font-size: 15px
+}
+
+form .cf {
+  text-align: left;
+  color: #abb2bf
+}
+
+form .cf span {
+  color: grey;
+}
+
+form .cf#r div:first-of-type {
+  margin-top: 5px
+}
+form .cf#r .cf:last-of-type span {
+  color: #d19a66
+}
+
+form input {
+  display: none
+}
+
+form button {
+  background-color: grey;
+  border: 1px solid grey;
+  padding: 4px;
+  width: max-content;
+  color: #fff;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  border-radius: 3px
+}
+
+form button:hover {
+  background-color: lightgrey;
+}
+
+form button:active {
+  background-color: grey
+}
+.choosefile{
+  padding: 40px;
+}
+.proof{
+  display: none;
+}
+.col-md-3.req {
+  display: contents;
+}

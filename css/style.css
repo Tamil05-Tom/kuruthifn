@@ -1786,5 +1786,7 @@ blockquote {
 .form-group:last-child input {
   margin: 0;
 }
-
+span.icon-bar.clr {
+    background: #810000;
+}
 /*# sourceMappingURL=maps/style.css.map */
